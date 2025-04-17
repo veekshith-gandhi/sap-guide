@@ -38,3 +38,47 @@ XSA is based on Cloud Foundry, a modern application platform.
 | Limited DevOps              | CI/CD friendly               |
 
 > ✅ Due to these improvements, teams have started migrating to **XSA**.
+
+
+### ☁️ Part 3: SAP HANA Cloud + CAP
+- Now we fast forward to the cloud era. Everyone is moving to the cloud to reduce infra costs, be scalable, etc. SAP builds SAP HANA Cloud and promotes CAP.
+
+## 🧭 What's SAP HANA Cloud?
+
+1. SAP's cloud-based version of the HANA DB.
+2. You don’t manage infrastructure. It's fast, scalable, and cost-effective.
+
+## 🚀 What's CAP (Cloud Application Programming model)?
+
+1. A framework by SAP to build backend applications easily (Node.js or Java).
+2. Think of it like a toolkit to build enterprise apps: define your model, logic, services.
+3. Auto-generates OData/REST APIs, easy security integration, etc.
+
+## 🔄 Why migrate to HANA Cloud + CAP?
+
+- Because it’s the future:
+On-prem HANA is expensive and hard to maintain.
+CAP + HANA Cloud gives better productivity, flexibility, and scalability.
+XSC and XSA are getting phased out or limited in future.
+
+### 🛤️ So What’s Happening?
+
+Let’s summarize the timeline:
+
+1. XSC: Original way to build apps on HANA → Easy, but limited.
+2. XSA: Modernized version using Cloud Foundry → Better, but still complex.
+3. SAP HANA Cloud + CAP: Full cloud-native, scalable, future-proof → SAP’s main focus now.
+4. SAP is giving tools and migration guides to help people move from:
+5. XSC → XSA → HANA Cloud + CAP
+
+### Think of it like this:
+- 💾 Old USB Drive → 🔌 SSD → ☁️ Cloud Storage
+
+
+### 🧠 TL;DR
+
+- XSC: Old, tightly-coupled apps inside HANA.
+- XSA: Modern, container-based apps outside HANA.
+- HANA Cloud + CAP: Cloud-native, SAP’s current and future direction.
+
+Migration is happening to embrace cloud, microservices, better DevOps, and cost efficiency.
