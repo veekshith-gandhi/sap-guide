@@ -28,10 +28,13 @@ XSA is based on Cloud Foundry, a modern application platform.
 
 ### 🎯 Why move from XSC to XSA?
 
-## XS Classic (XSC)     	XS Advanced (XSA)
-Code + DB = Same place	    Code and DB = Separated
-Old-school architecture  	Modern microservice-based
-Harder to scale	            Easier to scale & maintain
-Limited DevOps           	CI/CD friendly
+## XS Classic (XSC) vs XS Advanced (XSA)
 
-So teams started migrating to XSA.
+| XS Classic (XSC)             | XS Advanced (XSA)            |
+|-----------------------------|------------------------------|
+| Code + DB = Same place      | Code and DB = Separated      |
+| Old-school architecture     | Modern microservice-based    |
+| Harder to scale             | Easier to scale & maintain   |
+| Limited DevOps              | CI/CD friendly               |
+
+> ✅ Due to these improvements, teams have started migrating to **XSA**.
