@@ -15,3 +15,23 @@
 4. Security concerns, hard to manage users/roles at scale.
 5. So eventually… people hit limitations.
 
+## 🔁 Part 2: Migration from XS Classic to XS Advanced (XSA)
+
+- SAP said: "Okay, time for an upgrade!" Enter XS Advanced (XSA).
+
+### 🛠️ What is XSA?
+
+XSA is based on Cloud Foundry, a modern application platform.
+1. Now your code is outside the HANA database, running in its own container.
+2. You can use modern languages like Node.js, Java, etc.
+3. Full support for microservices, role-based access, DevOps tools, etc.
+
+### 🎯 Why move from XSC to XSA?
+
+## XS Classic (XSC)     	XS Advanced (XSA)
+Code + DB = Same place	    Code and DB = Separated
+Old-school architecture  	Modern microservice-based
+Harder to scale	            Easier to scale & maintain
+Limited DevOps           	CI/CD friendly
+
+So teams started migrating to XSA.
